@@ -8,14 +8,13 @@ import { EmployeesModule } from './employees/employees.module';
 import { Employee } from './employees/employee.entity';
 import { Tts, TtsPIC, TtsChange, Ttschange } from './tickets/tickets.entity';
 import { TtsModule } from './tickets/tickets.module';
-import { Customer } from './customers/customers.entity';
 import { NOCFiber } from './subscription/entities/noc-fiber.entity';
 import { SalesPromoModule } from './sales-promo/sales-promo.module';
 import { SalesPromo } from './sales-promo/sales-promo.entity';
 import { ServicesModule } from './services/services.module';
-import { CustomerServices } from './customers/customer-services.entity';
 import { CustomerServiceTechnicalCustom } from './subscription/entities/customer-service-technical-custom.entity';
 import { SubscriptionModule } from './subscription/subscription.module';
+import { Customer } from './customers/entities/customer.entity';
 import { SMSPhonebook } from './customers/entities/sms-phonebook.entity';
 import { Subscription } from './customers/entities/subscriber.entity';
 import { NPWPCustomer } from './customers/entities/customer-npwp.entity';
@@ -34,7 +33,6 @@ import { NPWPCustomer } from './customers/entities/customer-npwp.entity';
         Employee,
         Tts,
         Customer,
-        CustomerServices,
         Subscription,
         SMSPhonebook,
         NPWPCustomer,

@@ -1,10 +1,4 @@
-import {
-  BaseEntity,
-  Entity,
-  Column,
-  PrimaryColumn,
-  CreateDateColumn,
-} from 'typeorm';
+import { BaseEntity, Entity, Column, PrimaryColumn } from 'typeorm';
 
 @Entity({ name: 'Customer', synchronize: false })
 export class Customer extends BaseEntity {
